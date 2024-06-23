@@ -1,0 +1,56 @@
+.fondo {background-color: rgb(106, 171, 214);}
+.mitexto{
+    font-size: 2em;
+    color: gray;
+
+}
+.tarjeta {
+    width: fit-content;
+    border: 2px solid black;
+    padding: 0px 1em 0px 1em;
+    border-radius: 10%;
+    transition: 2s;
+    display:flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+
+}
+
+.tarjeta:hover{
+background-color: aquamarine;
+
+}
+
+
+#importante{
+     font-size: 50px;
+     color: black;
+}
+#titulo{
+border: 2px solid black;
+width: 55vw;
+margin: auto;
+padding: 2em
+}
+
+
+#contenedor-tarjeta{
+    background-color: aliceblue;
+    width: 70vw;
+    margin: auto;
+    margin-top: 2em; 
+    border-radius: 10%;
+    padding: 1em;
+
+    display: flex;
+    flex-direction: row;
+justify-content: space-around;
+
+}
+
+.logo{
+    width: 200px;
+    margin: auto;
+    padding: 0px 1em 0px 1em
+}
